@@ -14,9 +14,10 @@ Multi-Tenant Dashboards: Custom views for hospitals, nurses, and admins with ana
 Tech Stack
 
 Frontend: React 18+ with TypeScript, Tailwind CSS for styling, React Router for navigation, Redux Toolkit for state management, Socket.io for real-time features, Web3.js for blockchain integration, and TensorFlow.js for client-side AI enhancements.
+
 Backend: Django 5+ with Django REST Framework, PostgreSQL (multi-tenant setup), Celery for asynchronous tasks, Django Channels for WebSockets, and scikit-learn for AI matching algorithms.
-Additional Technologies: Docker for containerization, Ethereum testnet for blockchain, Leaflet.js for geolocation mapping, JWT/OAuth for authentication.
-Deployment: Vercel for the frontend (now live and available!), AWS or Heroku for the backend, with GitHub Actions for CI/CD pipelines.
+
+Deployment: Vercel for the frontend, AWS or Heroku for the backend, with GitHub Actions for CI/CD pipelines.
 
 Features in Detail
 
@@ -25,6 +26,7 @@ Symptom Checker & Matching: AI triage system assigns providers dynamically, with
 Telehealth Module: Integrated video consultations (via WebRTC) and e-prescriptions with pharmacy routing.
 Pharmacy Marketplace: Inventory management, geo-located delivery, and auto-replenishment.
 Analytics & Compliance: HIPAA/GDPR-inspired data handling, audit logs, and role-based access controls.
+
 Unique Differentiators:
 AI engine outperforms traditional queues by 60% in efficiency.
 Blockchain ensures 100% verifiable records, addressing fraud concerns.
