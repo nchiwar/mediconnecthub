@@ -48,7 +48,7 @@ npm install
 
 cp .env.example .env  # Set API base URL, Web3 provider, etc.
 
-npm run devNote: The frontend is already live on Vercel—visit [mediconnecthub.vercel.app] to see it in action without local setup!
+npm run devNote: The frontend is already live on Vercel—visit https://mediconnecthub.vercel.app/ to see it in action without local setup!
 
 Optional: Seed Demo Data:text# In backend directory
 python manage.py seed --users=200 --providers=50
@@ -100,7 +100,8 @@ This project is licensed under the MIT License—free to use, modify, and distri
 
 Contact & Demo
 For questions, bug reports, or collaborations, email nehechiwar@gmail.com.
-Live Frontend Demo: Check out the deployed frontend now at [mediconnect-hub.vercel.app]—explore patient portals, matching demos, and more!
 
-GitHub: [github.com/nchiwar/mediconnecthub]
+Live Frontend Demo: Check out the deployed frontend now at https://mediconnecthub.vercel.app explore patient portals, matching demos, and more!
+
+GitHub: github.com/nchiwar/mediconnecthub
 Stay updated on our progress toward revolutionizing accessible healthcare!
