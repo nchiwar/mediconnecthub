@@ -38,20 +38,18 @@ Installation & Setup
 Follow these steps to get the project running locally:
 
 Clone the Repository:textgit clone https://github.com/nchiwar/mediconnecthub.git
-cd mediconnect-hub
-Backend Configuration:textcd backend
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-cp .env.example .env  # Configure DB credentials, JWT secret, Ethereum node URL, etc.
-python manage.py migrate
-python manage.py createsuperuser
-celery -A mediconnect worker -l info  # Start task queue
-python manage.py runserver
+
+cd mediconnecthub
+
+
 Frontend Configuration (Now Available Live!)**:textcd ../frontend
+
 npm install
+
 cp .env.example .env  # Set API base URL, Web3 provider, etc.
+
 npm run devNote: The frontend is already live on Vercel—visit [mediconnecthub.vercel.app] to see it in action without local setup!
+
 Optional: Seed Demo Data:text# In backend directory
 python manage.py seed --users=200 --providers=50
 Docker Setup (Recommended for Production-Like Environment):textdocker-compose up --build
@@ -84,7 +82,6 @@ textmediconnect-hub/
 └── docker-compose.yml
 Running Tests
 
-Backend Tests: python manage.py test (covers models, views, and APIs).
 Frontend Tests: npm run test (using Jest and React Testing Library for components and integrations).
 
 Contributing
@@ -97,10 +94,13 @@ Push to the branch: git push origin feature/new-ai-enhancement.
 Open a Pull Request.
 
 Please follow our code of conduct and ensure tests pass before submitting.
+
 License
 This project is licensed under the MIT License—free to use, modify, and distribute for innovative healthcare solutions.
+
 Contact & Demo
-For questions, bug reports, or collaborations, email [your.email@example.com].
+For questions, bug reports, or collaborations, email nehechiwar@gmail.com.
 Live Frontend Demo: Check out the deployed frontend now at [mediconnect-hub.vercel.app]—explore patient portals, matching demos, and more!
-GitHub: [github.com/yourusername/mediconnect-hub]
+
+GitHub: [github.com/nchiwar/mediconnecthub]
 Stay updated on our progress toward revolutionizing accessible healthcare!
